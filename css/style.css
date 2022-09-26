@@ -1,0 +1,28 @@
+:root {
+    --black-overlay: rgba(0, 0, 0, 0.5);
+    --black: #00000;
+    --dark-grey: rgba(40, 40, 40, 1);
+    --text-white: #ffffff;
+    --red: #ff0100;
+    --blue: #016cf9;
+    --green: #00e165;
+}
+
+.debug {
+    border: 1px solid white;
+    background-color: var(--blue);
+    color: var(--text-white);
+    text-align: center;
+    min-height: 50px;
+}
+
+.nested {
+    border: 1px solid var(--blue);
+    background-color: var(--green);
+    text-align: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
